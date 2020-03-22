@@ -1,0 +1,20 @@
+logs
+*.log
+.DS_Store
+
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+
+# IDE
+.idea
+.vscode
+.grunt
+.lock-wscript
+build/Release
+build
+
+node_modules
+public
