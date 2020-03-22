@@ -19,7 +19,6 @@ export function initList () {
       payload: new Promise((res, rej) => {
         if (Storage.response()) {
           const data = JSON.parse(Storage.response())
-          console.log('data1', data)
           setTimeout(() => res(data), 500)
         } else {
           Storage.setItems(response)
